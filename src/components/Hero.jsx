@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <motion.div
     initial={{
-      x: "100vh" // set 100vw to 95vw
+      x: -300 // set 100vw to 95vw
     }}
     // This is not working
     whileInView={{
@@ -18,7 +18,7 @@ const Hero = () => {
         stiffness: 50
       }
     }}
-    className=' flex  items-center px-9 py-8 justify-around' id='home'>
+    className=' overflow-auto flex items-center px-9 py-8 justify-around' id='home'>
         <div className="text flex-1 max-w-[550px]">
             <h1 className='hero text-[70px] max-w-[500px]  font-bold leading-[70px] py-8 text-mainblue '>Planification facile <span className='text-mainred'>à l'avance</span> </h1>
             <p className='font-[800] text-lg text-gray-800'><span className='text-mainred underline'>GTHCONSULT</span> est un bureau de contrôle agrée par l'etat créé par deux ingénieurs pluridisciplinaires
@@ -26,7 +26,7 @@ const Hero = () => {
 réglementaires ou volantaires en matière de contôles réglementaires des installationns techniques, gestion des risques professionnels,
  protectiion des personnes,des biens et de l'environnement .</p>
         </div>
-        <div className="img flex-1 max-w-[650px] ">
+        <div className="hidden md:block img flex-1 max-w-[650px] ">
             <img src={hero} alt="" className='rounded-3xl' />
         </div>
     </motion.div>
