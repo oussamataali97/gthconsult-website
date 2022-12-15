@@ -4,7 +4,7 @@ import {FaUserCircle} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between px-5 py-3 shadow-md sticky top-0 right-0 left-0 z-40 bg-white'>
+    <div className='flex items-center justify-between px-5 py-3 shadow-md fixed top-0 right-0 left-0 z-40 bg-white'>
         <a href="#home"><img src={logo} alt="logo" className='w-36' /></a>
 
         <ul className='flex space-x-5 font-bold items-center'>
