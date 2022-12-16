@@ -9,8 +9,8 @@ import {GiSandsOfTime} from 'react-icons/gi'
 import { motion } from "framer-motion";
 const Agrements = () => {
   return (
-    <div className='agrementsss px-9 py-8 bg-gray-200 ' id='agrement'>
-    <p className='text-center text-[60px] font-[500] hero text-gray-800'>Agréments</p>
+    <div className='agrementsss px-4 md:px-9 py-8 bg-gray-200 ' id='agrement'>
+    <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 '>Agréments</p>
     <div className="flex justify-center mb-5 flex-col items-center"><motion.img
          initial={{
             opacity: 0,
@@ -26,7 +26,7 @@ const Agrements = () => {
               stiffness: 50
             }
           }}
-    src={king} alt="" className='w-48 ' />
+    src={king} alt="" className='w-32 md:w-48 ' />
     <motion.p
           initial={{
             opacity: 0,
@@ -42,9 +42,9 @@ const Agrements = () => {
               stiffness: 50
             }
           }}
-    className='bg-white px-9 py-8 mx-10 my-6 rounded-md shadow-lg max-w-[1000px] text-[20px] '><MdTipsAndUpdates className='inline text-yellow-400 mb-1'/> <span className='text-mainred font-[700]'> GTHCONSULT </span>dispose des agréments ministériels délivrés par les autorités compétentes qui témoigne de la reconnaissance de nos compétences et de notre savoir-faire </motion.p>
+    className='bg-white md:px-9 px-4 py-4 md:py-8 mx-10 my-6 rounded-md shadow-lg w-full md:max-w-[1000px] md:text-[20px] '><MdTipsAndUpdates className='inline text-yellow-400 mb-1'/> <span className='text-mainred font-[700]'> GTHCONSULT </span>dispose des agréments ministériels délivrés par les autorités compétentes qui témoigne de la reconnaissance de nos compétences et de notre savoir-faire </motion.p>
 </div>
-    <div className="cards grid grid-cols-5  gap-5">
+    <div className="cards grid lg:grid-cols-4 xl:grid-cols-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
       <motion.div
          initial={{
           opacity: 0,

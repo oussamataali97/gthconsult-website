@@ -6,7 +6,7 @@ import cert from './../assets/certificat.png'
 const Certificats = () => {
   return (
     <div className='py-8 flex justify-center items-center flex-col ' id='certificats'>
-      <p className='text-center text-[50px] font-bold hero text-gray-700 '>Certificats</p>
+      <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 '>Certificats</p>
         <motion.img
          initial={{
           opacity: 0,
@@ -21,7 +21,7 @@ const Certificats = () => {
             type: "spring", stiffness: 100
           }
         }}
-        src={cert} alt="" className='w-[1000px]'/>
+        src={cert} alt="" className='w-[1000px] py-16'/>
     </div>
   )
 }

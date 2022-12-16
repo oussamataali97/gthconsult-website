@@ -19,9 +19,9 @@ const Contact = () => {
             }
           }}
         className='py-8' id='contact'>
-                            <p className='text-center text-[60px] font-[500] hero text-gray-800'>Contactez Nous</p>
+                            <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 '>Contactez Nous</p>
 
-            <div className="flex justify-center py-5 px-16 gap-6">
+            <div className="flex flex-col md:flex-row justify-center py-5 px-6 md:px-16 gap-6">
                 <div className="flex-1">
                 <p className=' font-[700] text-red-400 '>Si vous avez des questions ou besoin d'aide, veuillez remplir le formulaire ci-dessous. Nous faisons de notre mieux pour vous répondre dans un délai d'un jour ouvrable.
                 </p>
@@ -30,7 +30,7 @@ const Contact = () => {
                     <input type="text" className='border-b-[1px] py-2 focus:outline-none my-2 placeholder:text-black border-mainblue' placeholder='Email..' />
                     <input type="text" placeholder='Numéro telephone..' className='border-b-[1px] placeholder:text-black py-2 focus:outline-none my-2  border-mainblue' />
                     <textarea name="" className='placeholder:text-black border-b-[1px] focus:outline-none my-2 border-mainblue h-32' id="" placeholder='Message'></textarea>
-                    <a href="" className=' bg-mainblue text-white px-10 py-5 mt-10 text-center w-[190px] mx-auto '>Soumettre</a>
+                    <a href="" className=' bg-mainblue text-white px-7 md:py-5 py-4 rounded-full mt-10 text-center  w-full md:w-fit '>Soumettre</a>
                 </form>
                 </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
                 width="600"
                 height="450"
                 frameBorder="0"
-                className='flex-1 shadow-lg'
+                className='flex-1 w-full shadow-lg'
                 style={{ border: 0 }}
                 allowFullScreen=""
                 aria-hidden="false"

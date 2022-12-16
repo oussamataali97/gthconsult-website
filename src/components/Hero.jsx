@@ -18,9 +18,9 @@ const Hero = () => {
         stiffness: 50
       }
     }}
-    className=' overflow-auto flex items-center h-screen px-9 py-8 justify-around' id='home'>
+    className=' overflow-auto flex items-center lg:h-screen px-9 mt-14 py-8 justify-around' id='home'>
         <div className="text flex-1 max-w-[550px]">
-            <h1 className='hero text-[70px] max-w-[500px]  font-bold leading-[70px] py-8 text-mainblue '>Planification facile <span className='text-mainred'>à l'avance</span> </h1>
+            <h1 className='hero  text-[40px] md:text-[70px] max-w-[500px]  font-bold md:leading-[70px] py-3 md:py-8 text-mainblue '>Planification facile <span className='text-mainred'>à l'avance</span> </h1>
             <p className='font-[800] text-lg text-gray-800'><span className='text-mainred underline'>GTHCONSULT</span> est un bureau de contrôle agrée par l'etat créé par deux ingénieurs pluridisciplinaires
 . Sa mission est d'accompagner les chefs d'établissements et les exploitants pour répondre à leurs obligations
 réglementaires ou volantaires en matière de contôles réglementaires des installationns techniques, gestion des risques professionnels,

@@ -22,7 +22,7 @@ const NosMoyens = () => {
                 stiffness: 50
               }
             }}
-        src={logo} alt="" className='w-64 ' />
+        src={logo} alt="" className='w-48 md:w-64 ' />
 
           <motion.p
                initial={{
@@ -39,7 +39,7 @@ const NosMoyens = () => {
                   stiffness: 50
                 }
               }}
-          className='px-16  font-[500] text-[25px] text-white  '><ImQuotesLeft/>Accompagner les chefs d’établissements et les exploitants pour répondre à leurs obligations réglementaires ou volontaires en matière de gestion des risques professionnels, protection des personnes et des biens ainsi que de l’environnement .
+          className='md:px-16 px-8 leading-9  font-[500] text-[16px] md:text-[25px] text-white  '><ImQuotesLeft/>Accompagner les chefs d’établissements et les exploitants pour répondre à leurs obligations réglementaires ou volontaires en matière de gestion des risques professionnels, protection des personnes et des biens ainsi que de l’environnement .
 </motion.p>
       </div>
     </div>

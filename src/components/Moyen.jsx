@@ -10,10 +10,10 @@ import { MdEngineering, MdSettingsSystemDaydream, MdArrowForward } from 'react-i
 
 const Moyen = () => {
     return (
-        <div className='px-16 pb-8' id='moyenss'>
-            <p className='text-center text-[60px] font-[500] hero text-gray-700 p-8'>Nos Moyens</p>
+        <div className='md:px-16 px-8 pb-8' id='moyenss'>
+            <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700'>Nos Moyens</p>
 
-            <div className="flex items-center gap-2">
+            <div className="flex flex-col md:flex-row items-center gap-2">
                 <div className="flex-1">
                     <motion.img
                          initial={{
@@ -48,7 +48,7 @@ const Moyen = () => {
                         }
                       }}
                 className="flex-1">
-                    <p className='hero text-mainblue  text-[30px] font-bold py-4 flex items-center mb-6'><MdEngineering size={50} className='mr-2' /> Nos Moyens Humains</p>
+                    <p className='hero text-mainblue text-[25px] md:text-[30px] font-bold py-4 flex items-center mb-6'><MdEngineering size={50} className='mr-2' /> Nos Moyens Humains</p>
                     <p className='text-gray-800 font-[500] text-[18px]'>
                         En plus de son réseau de compétence au Maroc et à l’étranger. GTHCONSULT met à votre disposition une équipe de spécialistes compétents dans les domaines de vérifications réglementaires
                         , d’inspections techniques, de formations, et d’accompagnement.
@@ -57,7 +57,7 @@ const Moyen = () => {
 
                 </motion.div>
             </div>
-            <div className="flex items-center mt-10">
+            <div className="flex items-center flex-col md:flex-row mt-10">
 
                 <motion.div
                     initial={{
@@ -75,7 +75,7 @@ const Moyen = () => {
                         }
                       }}
                 className="flex-1">
-                    <p className='hero text-mainblue  text-[30px] font-bold py-4 flex items-center mb-6'><MdSettingsSystemDaydream className='mr-2' /> Nos Moyens Systèmes Et Matériels</p>
+                    <p className='hero text-mainblue  text-[25px] md:text-[30px] font-bold py-4 flex items-center mb-6'><MdSettingsSystemDaydream className='mr-2' /> Nos Moyens Systèmes Et Matériels</p>
                     <p className='max-w-[550px] leading-6 text-gray-800 font-[500] text-[18px] mb-5 '><span className='text-mainred '> <AiOutlineCaretRight className='inline' /> GTHCONSULT</span> dispose des équipments et des moyens d’inspections et de vérfication pour assurer ses missions : contrôles dimensionnelle, mesures des grandeurs physiques,
                         contrôle non destructif ( ressuage, magnétoscopie, endoscopie).</p>
                     <p className='max-w-[550px] leading-6 text-gray-800 font-[500] text-[18px]  '><span className='text-mainred '><AiOutlineCaretRight className='inline' />  GTHCONSULT</span> investit dans le développement des outils numériques et informatiques pour une meilleure qualité de ses prestations : des logiciels d'inspections, des espaces clients, automatisation des rapports, etc.GTHCONSULT investit dans le développement des outils numériques et informatiques pour une meilleure qualité de ses prestations : des logiciels

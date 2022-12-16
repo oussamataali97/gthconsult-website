@@ -40,10 +40,10 @@ const Footer = () => {
               type: "spring",
               stiffness: 50
             }
-          }} className="top grid grid-cols-4 content-center py-4">
-         <div className="item flex flex-col items-start self-start">
-            <img src={logo} alt="" />
-            <p>© 2022 GTHCONSULT BUREAU DE CONTRÔLE AGRÉÉ PAR L’ÉTAT</p>
+          }} className="top grid md:grid-cols-4 content-center py-4 gap-y-8">
+         <div className="item flex flex-col justify-center items-center">
+            <img src={logo} alt="" className='w-48 mb-6 md:mb-0' />
+            <p className='text-center border-b-[1px] pb-2'>© 2022 GTHCONSULT BUREAU DE CONTRÔLE AGRÉÉ PAR L’ÉTAT</p>
         </div>
         <div className="item flex items-center justify-center">
             <AiTwotonePhone  className='mr-2 text-[30px]' />+212 5 23 27 27 74

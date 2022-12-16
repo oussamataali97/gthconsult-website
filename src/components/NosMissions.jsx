@@ -18,8 +18,8 @@ import { motion } from "framer-motion";
 const NosMissions = () => {
   return (
     <div className='px-9 py-8 ' id='metiers'>
-        <p className='text-center text-[60px] font-[500] hero text-gray-700 p-8'>Nos Mètiers</p>
-        <div className="cards grid grid-cols-5  gap-5">
+        <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 mb-9'>Nos Mètiers</p>
+        <div className="cards grid lg:grid-cols-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           <motion.div
              initial={{
               opacity: 0,
@@ -56,7 +56,7 @@ const NosMissions = () => {
                 type: "spring",
                 stiffness: 50
               }
-            }} className="flex mt-12 flex-col shadow-lg justify-around cursor-pointer relative hover:scale-105 overflow-hidden uration-1000 card bg-gray-50 h-96  rounded-xl ">
+            }} className="flex lg:mt-12 flex-col shadow-lg justify-around cursor-pointer relative hover:scale-105 overflow-hidden uration-1000 card bg-gray-50 h-96  rounded-xl ">
             <img src={sec2} alt="" className='w-full h-64 hover:scale-110 duration-1000  object-cover' />
             <img src={safe} alt="" className='absolute top-[25%] opacity-80 right-[35%] z-30 w-20'/>
             <p className='p-4 font-[500]'>Contrôles environnementaux</p>
@@ -96,7 +96,7 @@ const NosMissions = () => {
                 type: "spring",
                 stiffness: 50
               }
-            }} className="flex mt-12 flex-col shadow-lg justify-around relative cursor-pointer hover:scale-105 overflow-hidden uration-1000 card bg-gray-50 h-96  rounded-xl ">
+            }} className="flex lg:mt-12 flex-col shadow-lg justify-around relative cursor-pointer hover:scale-105 overflow-hidden uration-1000 card bg-gray-50 h-96  rounded-xl ">
             <img src={sec4} alt="" className='w-full h-64 hover:scale-110 duration-1000  object-cover' />
             <img src={check} alt="" className='absolute top-[25%] opacity-80 right-[35%] z-30 w-20'/>
 
