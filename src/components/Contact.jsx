@@ -21,16 +21,16 @@ const Contact = () => {
         className='py-8' id='contact'>
                             <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 '>Contactez Nous</p>
 
-            <div className="flex flex-col md:flex-row justify-center py-5 px-6 md:px-16 gap-6">
-                <div className="flex-1">
-                <p className=' font-[700] text-red-400 '>Si vous avez des questions ou besoin d'aide, veuillez remplir le formulaire ci-dessous. Nous faisons de notre mieux pour vous répondre dans un délai d'un jour ouvrable.
+            <div className="flex flex-col md:flex-row justify-center py-5 md:px-16 gap-6">
+                <div className="flex-1 px-4 ">
+                <p className='  text-mainred font-light '>Si vous avez des questions ou besoin d'aide, veuillez remplir le formulaire ci-dessous. Nous faisons de notre mieux pour vous répondre dans un délai d'un jour ouvrable.
                 </p>
                 <form action="" className='flex flex-col  text-[17px]  '>
-                    <input type="text" className='border-b-[1px] py-2 focus:outline-none my-2 placeholder:text-black border-mainblue' placeholder='Nom Complet..' />
-                    <input type="text" className='border-b-[1px] py-2 focus:outline-none my-2 placeholder:text-black border-mainblue' placeholder='Email..' />
-                    <input type="text" placeholder='Numéro telephone..' className='border-b-[1px] placeholder:text-black py-2 focus:outline-none my-2  border-mainblue' />
-                    <textarea name="" className='placeholder:text-black border-b-[1px] focus:outline-none my-2 border-mainblue h-32' id="" placeholder='Message'></textarea>
-                    <a href="" className=' bg-mainblue text-white px-7 md:py-5 py-4 rounded-full mt-10 text-center  w-full md:w-fit '>Soumettre</a>
+                    <input type="text" className='border-b-[1px] py-2 focus:outline-none my-2 placeholder:text-gray-800 border-mainblue' placeholder='Nom Complet..' />
+                    <input type="text" className='border-b-[1px] py-2 focus:outline-none my-2 placeholder:text-gray-800 border-mainblue' placeholder='Email..' />
+                    <input type="text" placeholder='Numéro telephone..' className='border-b-[1px] placeholder:text-gray-800 py-2 focus:outline-none my-2  border-mainblue' />
+                    <textarea name="" className='placeholder:text-gray-800 border-b-[1px] focus:outline-none my-2 border-mainblue h-32' id="" placeholder='Message'></textarea>
+                    <a href="" className=' bg-mainblue duration-300 ease-linear hover:bg-blue-500 text-white px-7 md:py-5 py-4 rounded-full mt-10 text-center  w-full md:w-fit '>Soumettre</a>
                 </form>
                 </div>
 

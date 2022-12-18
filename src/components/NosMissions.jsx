@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 
 const NosMissions = () => {
   return (
-    <div className='px-9 py-8 ' id='metiers'>
+    <div className='px-4 md:px-9 py-8 ' id='metiers'>
         <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700 mb-9'>Nos Mètiers</p>
         <div className="cards grid lg:grid-cols-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           <motion.div

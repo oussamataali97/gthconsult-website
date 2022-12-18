@@ -10,7 +10,7 @@ import { MdEngineering, MdSettingsSystemDaydream, MdArrowForward } from 'react-i
 
 const Moyen = () => {
     return (
-        <div className='md:px-16 px-8 pb-8' id='moyenss'>
+        <div className='md:px-16 px-4 pb-8' id='moyenss'>
             <p className='text-center text-[40px] md:text-[60px] font-bold hero text-gray-700'>Nos Moyens</p>
 
             <div className="flex flex-col md:flex-row items-center gap-2">
